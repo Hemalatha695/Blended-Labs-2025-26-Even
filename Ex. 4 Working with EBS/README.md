@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Hemalatha.A
+* **Register Number**: 212224240056
+* **Date of Submission**: 27/02/2026
 
 ---
 
@@ -77,34 +77,30 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 ---
 
 ## Workflow (Student Explanation)
+1.The EC2 Dashboard was accessed through the AWS Management Console to explore the Amazon EBS volume types.
+2.A new EBS volume was created by selecting the volume type, size, and the same Availability Zone as the EC2 instance.
+3.The created EBS volume was attached to the running EC2 instance as an additional block device.
+4.The attached volume was formatted using the ext4 file system and mounted to a directory in the EC2 instance.
+5.Sample data was stored in the mounted volume, and after rebooting the instance, data persistence was verified successfully.
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
+<img width="1919" height="821" alt="555752738-5986c24d-0da1-4b5f-86c0-fe67bd9d9ae8" src="https://github.com/user-attachments/assets/56ab0ade-ca77-49c1-8787-fe278122219f" />
 
-(Insert Screenshot Here)
-
----
 
 ### Screenshot 2: EBS Volume Attached to EC2
+<img width="1915" height="841" alt="555752837-33979955-bc05-4b29-85ff-9703d2b3a815" src="https://github.com/user-attachments/assets/0711a635-368d-47e3-847d-729642a044c9" />
 
-(Insert Screenshot Here)
-
----
 
 ### Screenshot 3: Mounted Volume with Data
+<img width="1919" height="663" alt="555752983-ac425ab9-0190-4d28-ac58-cfbaf0cc77e9" src="https://github.com/user-attachments/assets/f941161b-6f6b-4496-b6ae-6babfa664018" />
 
-(Insert Screenshot Here)
+
+### Result / Conclusion
+
+This experiment demonstrated how Amazon EBS provides persistent storage for EC2 instances. By creating, attaching, formatting, and mounting an EBS volume, and by verifying data after reboot, the concept of durable block storage in the cloud was clearly understood.
 
 ---
 
