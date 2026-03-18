@@ -1,4 +1,3 @@
-<img width="1915" height="816" alt="564947480-f48391fd-958b-4ea1-866d-924af207c7cc" src="https://github.com/user-attachments/assets/c0bc06fe-f739-48c5-84d1-1642c68fdab3" /># Lab 6 – Scale and Load Balance Your Architecture
 
 ## Title
 
